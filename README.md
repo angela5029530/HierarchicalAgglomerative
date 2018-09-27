@@ -44,9 +44,9 @@ In this part, 500 points are created by random, and the range is -500 to 500.
 
 Suppose: 
 
-k=5
-p= 0.75
-d = 600
+k=5,
+p= 0.75,
+d = 600,
 
 - First, determining the distance of two clusters by the distance between the nearest two points in
 the two clusters.
@@ -89,11 +89,11 @@ In this part, 500 points are divided into five groups with 100 points.
 
 Suppose:
 
-k=5
-p = 0.75 
-d = 600
+k=5,
+p = 0.75,
+d = 600,
 
-First, determining the distance of two clusters by the distance between the nearest two points in
+- First, determining the distance of two clusters by the distance between the nearest two points in
 the two clusters.
 
 ```bash
@@ -101,14 +101,14 @@ After remover outliers : 500 points.
 SilhouetteCoefficient : -0.4567306792720635
 ```
 
-Second, determining the distance of two clusters by the distance between the farthest two points in the two clusters.
+- Second, determining the distance of two clusters by the distance between the farthest two points in the two clusters.
 
 ```bash
 After remover outliers : 500 points.
 SilhouetteCoefficient : 0.22727624960518814
 ```
 
-Third, determining the distance of two clusters by the average distance between points in the
+- Third, determining the distance of two clusters by the average distance between points in the
 two clusters.
 
 ```bash
@@ -116,7 +116,7 @@ After remover outliers : 500 points.
 SilhouetteCoefficient : 0.29628494214576495
 ```
 
-Finally, determining the distance of two clusters by the distance between the centers of the two clusters.
+- Finally, determining the distance of two clusters by the distance between the centers of the two clusters.
 
 
 ```bash
@@ -137,11 +137,11 @@ In this part, 500 points are divide into five groups , and each group contains 1
 
 Suppose: 
 
-k=5
-p = 0.75 
-d = 600
+k=5,
+p = 0.75,
+d = 600,
 
-First, determining the distance of two clusters by the distance between the nearest two points in
+- First, determining the distance of two clusters by the distance between the nearest two points in
 the two clusters.
 
 ```bash
@@ -149,21 +149,21 @@ After remover outliers : 279 points.
 SilhouetteCoefficient : 0.6854044335752786
 ```
 
-Second, determining the distance of two clusters by the distance between the farthest two points in the two clusters.
+- Second, determining the distance of two clusters by the distance between the farthest two points in the two clusters.
 
 ```bash
 After remover outliers : 279 points.
 SilhouetteCoefficient : 0.6854044335752774
 ```
 
-Third, determining the distance of two clusters by the average distance between points in the two clusters.
+- Third, determining the distance of two clusters by the average distance between points in the two clusters.
 
 ```bash
 After remover outliers : 279 points.
 SilhouetteCoefficient : 0.6854044335752768
 ```
 
-Finally, determining the distance of two clusters by the distance between the centers of the two clusters.
+- Finally, determining the distance of two clusters by the distance between the centers of the two clusters.
 
 ```bash
 After remover outliers : 279 points.
