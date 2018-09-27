@@ -80,7 +80,12 @@ In part 1, using the average distance between points to decide the distance of t
 
 ## Part 2 ##
 
-In this part, 500 points are divided into five groups with 100 points. The first group is within the range of -300 to 0. The second group is within the range of -200 to 100. The third group is within the range of -100 to 200. The fourth group is within the range of 100 to 400. The fifth group is within the range of 300 to 600. The range of points of each group has duplicated points with other groups.
+In this part, 500 points are divided into five groups with 100 points. 
+- The first group is within the range of -300 to 0. The second group is within the range of -200 to 100. 
+- The third group is within the range of -100 to 200. 
+- The fourth group is within the range of 100 to 400. 
+- The fifth group is within the range of 300 to 600. 
+- The range of points of each group has duplicated points with other groups.
 
 Suppose:
 
