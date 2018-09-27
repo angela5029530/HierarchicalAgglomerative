@@ -17,6 +17,8 @@ HAC hac = new HAC(points, 5, HAC.ClusterDistance.NEAREST_POINT);
 
 hac.removeOutlier(0.75, 600);
 
+System.out.println("After remove outliers : " + hac.printPoints() + " points.");
+
 hac.clustering();
 
 double result = hac.silhouetteCoefficient();
@@ -33,3 +35,30 @@ d = 600
 
 First, determining the distance of two clusters by the distance between the nearest two points in
 the two clusters.
+
+```bash
+After remover outliers : 457 points.
+SilhouetteCoefficient : -0.2373472915147059
+```
+
+Second, determining the distance of two clusters by the distance between the farthest two points in the two clusters.
+
+```bash
+After remover outliers : 457 points.
+SilhouetteCoefficient : 0.1758761947988571
+```
+
+Third, determining the distance of two clusters by the average distance between points in the two clusters.
+
+```bash
+After remover outliers : 457 points.
+SilhouetteCoefficient : 0.24125776971235735
+```
+
+Finally, determining the distance of two clusters by the distance between the centers of the two clusters.
+
+```bash
+After remover outliers : 457 points.
+SilhouetteCoefficient : 0.20729746545781325
+```
+In part 1, using the average distance between points to decide the distance of two clusters can get the best performance in comparison with other methods.
