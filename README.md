@@ -2,7 +2,7 @@
 
 ## Introduction ##
 
-* This README is divided into three parts. 
+* Data Mining final term project.
 
 * Each part contains a dataset of 500 points and they will be created by different way. In addition, there are four methods to determine the distance of two clusters in each part, each method use the same dataset to calculate the distance. 
 
@@ -10,7 +10,15 @@
 
 * After getting the silhouette coefficient from each method, I will choose the silhouette coefficient which is close to 1, and it means that method has the best performance. 
 
-* Finally, I will give the conclusion. 
+* Finally, I will give the conclusion.
+
+## Goal ##
+
+* Randomly create 3 datasets of 500 points.
+
+* Using Hierarchical Agglomerative Alogrithm to cluster each dataset by four different methods.
+
+* Using Silhouette Coefficient to evaluate which method has best performance.
 
 ## Step ##
 
@@ -39,6 +47,8 @@ System.out.println("SilhouetteCoefficient : " + result);
 ```
 
 ## Part 1 ##
+
+[Points](https://github.com/angela5029530/HierarchicalAgglomerative/tree/master/resources)
 
 In this part, 500 points are created by random, and the range is -500 to 500.
 
@@ -79,6 +89,8 @@ SilhouetteCoefficient : 0.20729746545781325
 In part 1, using the average distance between points to decide the distance of two clusters can get the best performance in comparison with other methods.
 
 ## Part 2 ##
+
+[Points](https://github.com/angela5029530/HierarchicalAgglomerative/tree/master/resources)
 
 In this part, 500 points are divided into five groups with 100 points. 
 - The first group is within the range of -300 to 0. The second group is within the range of -200 to 100. 
@@ -128,6 +140,7 @@ In part 2, deciding the distance by the distance between the centers of the two 
 
 ## Part 3 ##
 
+[Points](https://github.com/angela5029530/HierarchicalAgglomerative/tree/master/resources)
 
 In this part, 500 points are divide into five groups , and each group contains 100 points. The range of points in each group are described below :
 
